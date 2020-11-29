@@ -1,0 +1,54 @@
+@function color($key: 'tangerine', $tint: 50) {
+  @return map-get(map-get($colors, $key), $tint);
+}
+
+$colors: (
+  'tangerine': (
+    100: #391f00,
+    90: #4c2a00,
+    80: #663800,
+    70: #884b00,
+    60: #b56400,
+    50: #f28b00,
+    40: #f5a83f,
+    30: #f7bd6f,
+    20: #f9ce93,
+    10: #fadaae,
+  ),
+  'cornflower': (
+    100: #191f3b,
+    90: #22294f,
+    80: #2d3769,
+    70: #3c4a8c,
+    60: #5163bb,
+    50: #6c84fa,
+    40: #90a2fb,
+    30: #acb9fc,
+    20: #c0cbfc,
+    10: #d0d8fd,
+  ),
+  'fire-engine-red': (
+    100: #3b0000,
+    90: #4e0000,
+    80: #690000,
+    70: #8c0000,
+    60: #ba0000,
+    50: #f90000,
+    40: #fa3f3f,
+    30: #fb6f6f,
+    20: #fc9393,
+    10: #fdaeae,
+  ),
+  'lightish-green': (
+    100: #153217,
+    90: #1c421f,
+    80: #255929,
+    70: #327637,
+    60: #439e4a,
+    50: #5ad363,
+    40: #83de8a,
+    30: #a2e6a7,
+    20: #b9ecbd,
+    10: #caf1cd,
+  ),
+);

@@ -1,0 +1,48 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "allowSyntheticDefaultImports": false,
+    "experimentalDecorators": true,
+    "baseUrl": "./",
+    "paths": {
+      "Assets/*": [
+        "app/assets/*"
+      ],
+      "Components/*": [
+        "app/components/*"
+      ],
+      "Contexts/*": [
+        "app/contexts/*"
+      ],
+      "App/*": [
+        "app/*"
+      ],
+      "Utils/*": [
+        "app/utilities/*"
+      ],
+      "Views/*": [
+        "app/views/*"
+      ],
+      "Routes/*": [
+        "app/routes/*"
+      ],
+      "Hooks/*": [
+        "app/hooks/*"
+      ],
+      "Store/*": [
+        "app/store/*"
+      ],
+      "Services/*": [
+        "app/services/*"
+      ]
+    }
+  },
+  "exclude": [
+    "node_modules",
+    "dist"
+  ],
+  "eslint.options": {
+    "configFile": ".eslintrc.js"
+  },
+  "tslint.enable": false
+}

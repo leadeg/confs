@@ -1,0 +1,26 @@
+// mixin
+@mixin generate-grid($columns, $size: '') {
+  @for $i from 1 through $columns {
+    $width: calc(100% / (#{$columns} / #{$i}));
+    .col-#{$i} {
+      width: $width;
+    }
+    .col-offset-#{$i} {
+      margin-left: $width;
+    }
+  }
+}
+
+// style
+@include generate-grid(24);
+[class*='col-'] {
+  float: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}

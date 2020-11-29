@@ -1,0 +1,27 @@
+@import 'color-palette';
+
+// Font family
+$font-family-main: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif !default;
+
+// Defined colors
+$grey: #919191;
+$dark-grey: #484848;
+
+// Dark Grey Palette
+$breadcrumb: #646464;
+$secondary-menu: #7b7b7b;
+
+// Light Grey Palette
+$grey-01: #ccc;
+$deactive-button: #ddd;
+$grey-03: #e5e5e5;
+$grey-04: #eee;
+$grey-05: #f5f5f5;
+
+// Variables
+$border-radius: 8px;
+$main-color: #ff6000;
+
+$sidebar-width: 80px;
+$header-height: 80px;
+$footer-height: 100px;

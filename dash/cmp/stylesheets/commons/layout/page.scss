@@ -1,0 +1,10 @@
+.layout__page {
+  min-height: calc(100% - 132px);
+  display: flex;
+  flex-direction: column;
+  padding-left: 32px;
+  padding-right: 32px;
+  box-sizing: border-box;
+  align-items: center;
+  margin: 12px;
+}
